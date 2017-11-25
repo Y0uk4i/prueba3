@@ -1,0 +1,34 @@
+<!--
+  Generated template for the DetallePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="nav">
+    <ion-title>Detalle</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content class="card-background-page">
+
+    <ion-card>
+        <ion-grid>
+            <ion-row>
+                <ion-col col-12><img src="{{detalle.img}}"/></ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-11><h1>{{detalle.titulo}}</h1></ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-1></ion-col>
+                <ion-col col-10><p>{{detalle.descripcion}}</p></ion-col>
+                <ion-col col-1></ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card>
+
+</ion-content>
+
